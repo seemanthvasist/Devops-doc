@@ -1,0 +1,47 @@
+
+1. Why DevOps?
+
+In traditional software development, development teams (Dev) and operations teams (Ops) worked separately. This caused slow releases, frequent errors, and poor collaboration. DevOps was introduced to solve these problems by combining development and operations to deliver software faster, more reliably, and with better quality.
+
+
+2. What is DevOps?
+
+DevOps is a culture, set of practices, and tools that combine software development (Dev) and IT operations (Ops). Its main goal is to shorten the software development life cycle and deliver continuous, high-quality software updates.
+
+
+3. How DevOps Works
+
+DevOps works by integrating people, processes, and tools across the software lifecycle:
+
+- Plan: Define requirements and plan development.
+- Code: Developers write code and store it in version control systems.
+- Build: Code is automatically compiled and built.
+- Test: Automated tests check for errors and quality.
+- Release: Approved builds are prepared for deployment.
+- Deploy: Applications are deployed automatically to servers or cloud.
+- Operate: Systems are monitored and maintained.
+- Monitor: Continuous monitoring collects feedback for improvement.
+
+This cycle repeats continuously to ensure fast and reliable delivery.
+
+
+4. DevOps Benefits
+
+- Faster software delivery
+- Improved collaboration between teams
+- Higher quality and fewer bugs
+- Continuous integration and deployment
+- Better customer satisfaction
+- Reduced operational costs
+- Faster recovery from failures
+
+
+5. DevOps Principles
+
+- Collaboration between Dev and Ops teams
+- Automation of processes
+- Continuous Integration (CI)
+- Continuous Delivery (CD)
+- Continuous Monitoring
+- Infrastructure as Code (IaC)
+- Feedback and continuous improvement
