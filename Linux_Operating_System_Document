@@ -1,0 +1,152 @@
+
+LINUX OPERATING SYSTEM
+
+1. Introduction
+Linux is an open-source, Unix-like operating system kernel developed by Linus Torvalds in 1991. Over time, it evolved into a complete operating system used in desktops, servers, cloud platforms, mobile devices, embedded systems, and supercomputers.
+Linux is known for its stability, security, flexibility, and performance, making it the backbone of modern IT infrastructure.
+
+2. What is Linux?
+Linux is:
+- An open-source operating system
+- Free to use, modify, and distribute
+- Multi-user and multitasking
+- Highly customisable
+- Community-driven development model
+Unlike proprietary systems, Linux allows users to view and modify its source code.
+
+3. History of Linux
+- 1991 – Linus Torvalds released the first Linux kernel
+- Inspired by UNIX and MINIX
+- Combined with GNU tools → formed GNU/Linux
+- Rapid growth through open-source community
+- Today powers Android, servers, cloud, and IoT devices
+
+4. Key Features of Linux
+- Open Source: Source code is freely available for modification and redistribution.
+- Multi-User: Multiple users can work simultaneously without conflict.
+- Multitasking: Runs multiple processes efficiently.
+- High Security: Built-in permission system and frequent security updates.
+- Stability: Servers can run for years without reboot.
+- Portability: Runs on various hardware platforms.
+- Customization: Users can tailor the OS to specific needs.
+
+5. Linux Architecture
+Linux follows a layered architecture:
+1. Hardware Layer – Physical devices
+2. Kernel – Core of OS managing resources
+3. Shell – Interface between user and kernel
+4. System Libraries – Provide standard functions
+5. User Applications – Software and tools
+
+Linux Kernel Functions:
+- Process Management
+- Memory Management
+- Device Management
+- File System Handling
+- Network Management
+
+
+6. Linux Distributions (Distros)
+Popular Distributions:
+- Desktop: Ubuntu, Fedora, Linux Mint
+- Server: CentOS, Red Hat, Debian
+- Security: Kali Linux, Parrot OS
+- Lightweight: Arch Linux, Alpine
+- Enterprise: RHEL, SUSE
+
+7. File System Structure
+- / : Root directory
+- /home : User files
+- /etc : Configuration files
+- /bin : Essential binaries
+- /var : Logs and variable data
+- /usr : User applications
+- /tmp : Temporary files
+
+8. Linux Command Line Basics
+- ls : List files
+- cd : Change directory
+- pwd : Show current directory
+- cp : Copy files
+- mv : Move files
+- rm : Remove files
+- mkdir : Create directory
+- cat : View file content
+- top : Monitor system processes
+
+9. User & Permission System
+Linux uses a strong permission model:
+- r → Read
+- w → Write
+- x → Execute
+Permissions apply to:
+- Owner
+- Group
+- Others
+Example:
+-rwxr-xr--
+
+10. Package Management
+- Ubuntu/Debian : apt
+- Red Hat/CentOS : yum / dnf
+- Arch : pacman
+Example command:
+sudo apt install nginx
+
+11. Process Management
+- ps : View processes
+- top / htop : Live monitoring
+- kill : Stop process
+- systemctl : Manage service
+12. Networking in Linux
+- ifconfig / ip : Network interfaces
+- ping : Check connectivity
+- netstat : Network statistics
+- ssh : Secure remote login
+
+13. Security in Linux
+- User authentication
+- File permissions
+- SELinux / AppArmor
+- Firewall (iptables / ufw)
+- Regular security patches
+
+14. Linux in Modern Technology
+Linux is used in:
+- Web Servers (Apache, Nginx)
+- Cloud Platforms (AWS, Azure, GCP)
+- DevOps & CI/CD pipelines
+- Containerization (Docker, Kubernetes)
+- Android smartphones
+- Supercomputers
+
+
+
+
+15. Advantages of Linux
+- Free and open source
+- Highly stable and reliable
+- Secure by design
+- Runs on low hardware
+- Large community support
+- Excellent for servers and development
+
+16. Limitations of Linux
+- Some commercial software unavailable
+- Gaming support limited (improving)
+- Learning curve for beginners
+
+17. Linux vs Other Operating Systems
+Feature Comparison:
+Linux: Open Source, Free, High Security, Very High Customization, Very High Server Usage
+Windows: Not Open Source, Paid, Medium Security, Low Customization, Medium Server Usage
+macOS: Not Open Source, Paid, High Security, Medium Customization, Low Server Usage
+
+18. Future of Linux
+- Growth in cloud computing
+- Expansion in IoT & embedded devices
+- Container and micro-services dominion
+19. Conclusion
+Linux is a powerful, flexible, and secure operating system that drives modern computing infrastructure. From personal desktops to global cloud servers, Linux plays a critical role in the digital world. Its open-source nature ensures continuous innovation and community-driven improvement.
+
+“Linux is not just an OS — it is a revolution in computing.”
