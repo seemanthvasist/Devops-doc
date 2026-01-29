@@ -1,0 +1,92 @@
+Site Reliability Engineering (SRE)
+
+1. Why SRE?
+In today’s digital world, businesses rely heavily on always-on applications and services. Users expect fast, reliable, and uninterrupted experiences. Even a few minutes of downtime can lead to revenue loss, customer dissatisfaction, and damage to brand reputation.
+Site Reliability Engineering (SRE) was introduced to solve this challenge by combining software engineering practices with IT operations to ensure systems are:
+Highly available
+Scalable
+Performant
+Resilient to failures
+SRE helps organisations move from reactive firefighting to proactive reliability management.
+
+2. What is SRE?
+Site Reliability Engineering (SRE) is a discipline that applies software engineering principles to infrastructure and operations problems. The goal is to build and run reliable systems at scale.
+Originally developed at Google, SRE focuses on automating operations tasks, improving system reliability, and balancing feature development with stability.
+In simple terms: SRE ensures that applications run smoothly in production with minimal downtime and maximum performance.
+
+
+
+3. What Can an SRE Do?
+An SRE is responsible for maintaining service reliability while enabling rapid development.
+Key Responsibilities
+Designing and maintaining highly reliable systems
+Monitoring system health and performance
+Automating repetitive operational tasks
+Managing incidents and outages
+Implementing disaster recovery strategies
+Capacity planning and scalability management
+Ensuring security and compliance
+Reducing manual intervention through automation
+Typical Tools Used
+Monitoring: Prometheus, Grafana, Datadog
+Logging: ELK Stack, Splunk
+Cloud Platforms: AWS, Azure, GCP
+Containers: Docker, Kubernetes
+CI/CD: Jenkins, GitHub Actions
+Infrastructure as Code: Terraform, Ansible
+
+
+4.  DevOps vs SRE
+
+ Simple Difference
+DevOps focuses on how fast you can deliver software.
+SRE focuses on how reliably the software runs.
+Both work together to achieve continuous delivery with high reliability.
+
+ 5. Core SRE Principles (Golden Rules)
+1. Service Level Objectives (SLOs)
+Define clear reliability targets such as uptime and response time.
+2. Service Level Indicators (SLIs)
+Measure actual system performance (latency, availability, error rate).
+3. Service Level Agreements (SLAs)
+Formal agreements with customers based on SLOs.
+
+4. Error Budget
+Defines how much failure is acceptable.
+If error budget remains → release new features faster
+If error budget is exhausted → focus on stability
+This creates a balance between innovation and reliability.
+
+5. Automation First
+Automate repetitive and manual operations to reduce human errors.
+
+6. Monitoring and Observability
+Continuous tracking of system health to detect issues early.
+
+7. Incident Management
+Quickly detect, respond, and resolve failures.
+Root Cause Analysis (RCA)
+Postmortem reports
+Continuous improvement
+
+8. Scalability and Capacity Planning
+Ensure systems handle growth without performance degradation.
+
+9. Blameless Culture
+Failures are learning opportunities, not personal faults.
+
+ Benefits of Implementing SRE
+Reduced downtime
+Faster incident recovery
+Improved system stability
+Better customer satisfaction
+Efficient use of engineering time
+Strong balance between speed and reliability
+
+ Conclusion
+Site Reliability Engineering is essential for modern organizations that aim to deliver fast, scalable, and highly reliable services. By integrating engineering practices into operations, SRE bridges the gap between development speed and system stability.
+SRE = Engineering reliability into production systems
+
+Prepared By
+Seemanth Vasist
+
